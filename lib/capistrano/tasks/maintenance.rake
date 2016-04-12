@@ -44,5 +44,5 @@ namespace :maintenance do
   end
 
   desc "Turn off maintenance mode for HTML and JSON"
-  task :disable => ["enable:html", "enable:json"]
+  task :disable => ["disable:html", "disable:json"]
 end
